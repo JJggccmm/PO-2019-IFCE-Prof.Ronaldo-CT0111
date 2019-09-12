@@ -123,7 +123,8 @@ def cria_Graficos(lista_entrada):                                               
 
 #Inicialização da aplicação:
 ##########################################################################
-lista_teste = [100000,200000,400000,500000,1000000,2000000]              #
+#lista_teste = [100000,200000,400000,500000,1000000,2000000]<- Para se ter ideia, levou mais de 1 Dia para rodar essa entrada no "Google Colabs" e ainda não havia compilado nem 4/6 do total direito!"
+lista_teste = [10000,20000,30000,40000,50000,100000]#Essa foi a entrada que levou o menor TEMPO para mim,detalhe que ainda levou algumas horas!
 cria_Graficos(lista_teste)                                               #
 ##########################################################################
 #############################
