@@ -1,12 +1,12 @@
-#ATIVIDADE PEDIDA: (Prof.Ronaldo)####################################################################################################################################################
-#CT0111 – Décima primeira da primeira etapa                                                                                                                                         #
-#Implementar o Gnome sort e imprimir os graficos conforme segue:                                                                                                                    #
-#                                                                                                                                                                                   #
-#   *Tamanho da lista de números x Tempo para ordenar pelo método - OBRIGATÓRIO!                                                                                                    #
-#   [Tamanho da lista x Quantidade de operações (Número de comparações)] - OPCIONAL!                                                                                                #
-#                                                                                                                                                                                   #
-#As listas geradas devem ser de números aleatórios dos seguintes tamanhos: 100K, 200K, 400K, 500K, 1M, 2M.                                                                          #
-#####################################################################################################################################################################################
+#ATIVIDADE PEDIDA: (Prof.Ronaldo)####################################################################################################################################################{
+#CT0111 – Décima primeira da primeira etapa                                                                                                                                         
+#Implementar o Gnome sort e imprimir os graficos conforme segue:                                                                                                                    
+#                                                                                                                                                                                   
+#   *Tamanho da lista de números x Tempo para ordenar pelo método - OBRIGATÓRIO!                                                                                                    
+#   [Tamanho da lista x Quantidade de operações (Número de comparações)] - OPCIONAL!                                                                                                
+#                                                                                                                                                                                   
+#As listas geradas devem ser de números aleatórios dos seguintes tamanhos: 100K, 200K, 400K, 500K, 1M, 2M. <-Devido ao algoritmo ter-se mostrado EXTREMAMENTE LENTO PARA O CASO DA LISTA RANDOMICA, A LISTA FOI DIMINUÍDA PARA ENTRADAS DE VALOR MENOR!                                                                         #
+#####################################################################################################################################################################################}
 
 #"Importação das devidas bibliotecas ;)"
 
@@ -122,10 +122,15 @@ def cria_Graficos(lista_entrada):                                               
 ###################################################################################################################################################################################################################################################################################################################################################################}
 
 #Inicialização da aplicação:
-##########################################################################
-#lista_teste = [100000,200000,400000,500000,1000000,2000000]<- Para se ter ideia, levou mais de 1 Dia para rodar essa entrada no "Google Colabs" e ainda não havia compilado nem 4/6 do total direito!"
-lista_teste = [10000,20000,30000,40000,50000,100000]#Essa foi a entrada que levou o menor TEMPO para mim,detalhe que ainda levou algumas horas!
-cria_Graficos(lista_teste)                                               #
-##########################################################################
+##########################################################################{
+#lista_teste = [100000,200000,400000,500000,1000000,2000000]<-Para se ter ideia, levou mais de 1 Dia para rodar essa entrada no "Google Colabs" e ainda não havia compilado nem 4/6 do total direito!"
+
+#################################################################################################
+#Obs:.Essa foi a entrada que levou o menor TEMPO para mim,detalhe que ainda levou algumas horas!#
+lista_teste = [10000,20000,30000,40000,50000,100000]                                            #
+#################################################################################################
+
+cria_Graficos(lista_teste)                                               
+##########################################################################}
 #############################
 ################                                                       
