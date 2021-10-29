@@ -127,7 +127,7 @@ def cria_Graficos(lista_entrada):                                               
 
 #################################################################################################
 #Obs:.Essa foi a entrada que levou o menor TEMPO para mim,detalhe que ainda levou algumas horas!#
-lista_teste = [10000,20000,30000,40000,50000,100000]                                            #
+lista_teste = [1000,2000,3000,4000,5000,10000]                                            #
 #################################################################################################
 
 cria_Graficos(lista_teste)                                               
