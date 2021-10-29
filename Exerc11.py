@@ -61,20 +61,20 @@ def desenhaGrafico2(x, y, yde, yce, file_name, label, label2, label3, file_title
 #"Função Gnome Sort"
 #Implementação do aluno#########################################################################{
 def gnomeSort(lista):                                                                                                                                                                                                                            
-  pivot = 0
+  pivota = 0
   num_iteracoes = 0
   
   lista_tam = len(lista)
   
-  while pivot < lista_tam - 1:
-    if lista[pivot] > lista[pivot + 1]:
-      lista[pivot + 1], lista[pivot] = lista[pivot], lista[pivot + 1]
+  while pivota < lista_tam - 1:
+    if lista[pivota] > lista[pivota + 1]:
+      lista[pivota + 1], lista[pivota] = lista[pivota], lista[pivota + 1]
       num_iteracoes += 1
       
-      if pivot > 0:
-        pivot -= 2
+      if pivota > 0:
+        pivota -= 2
         
-    pivot += 1
+    pivota += 1
 
   return num_iteracoes
 ################################################################################################}
